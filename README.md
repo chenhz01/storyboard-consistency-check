@@ -2,6 +2,8 @@
 
 storyboard-consistency-check is a **text-only** entity continuity checker for storyboard scripts: register your characters, props, and scenes once, then it flags unknown names, alias collisions, type mix-ups, scene-numbering defects, and continuity gaps across scenes. It never reads or processes image files. Confidence: High (≥80%) for the nine rules, per the 65-case suite.
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 Long storyboard scripts drift: a character appears in scene 1, vanishes in scene 2, and is back in scene 3 holding a prop nobody declared; "ali" and "Alice" and "ALICE" are treated as three people; scene numbers repeat after a reorder. Continuity errors are exactly the kind of thing humans are bad at tracking across hundreds of scenes — and exactly what a mechanical registry check is good at.
